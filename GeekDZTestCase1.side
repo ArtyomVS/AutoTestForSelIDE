@@ -1,0 +1,260 @@
+{
+  "id": "35ca75b2-a04d-425a-9b1f-7213effd5588",
+  "version": "2.0",
+  "name": "GeekDZ",
+  "url": "https://crm.geekbrains.space",
+  "tests": [{
+    "id": "3af6e8eb-554d-4f22-a727-4e8f961c1b51",
+    "name": "TestCaseOne",
+    "commands": [{
+      "id": "8e8518af-e832-4401-b849-623f231d5fd6",
+      "comment": "",
+      "command": "open",
+      "target": "/user/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff48dc7a-728b-4113-9771-4d8e9935a053",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7cb53ced-9f38-4025-b0ee-e7f636b759ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=prependedInput",
+      "targets": [
+        ["id=prependedInput", "id"],
+        ["name=_username", "name"],
+        ["css=#prependedInput", "css:finder"],
+        ["xpath=//input[@id='prependedInput']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b1d1785-46d4-42ea-bed4-a563a737ccc7",
+      "comment": "",
+      "command": "type",
+      "target": "id=prependedInput",
+      "targets": [
+        ["id=prependedInput", "id"],
+        ["name=_username", "name"],
+        ["css=#prependedInput", "css:finder"],
+        ["xpath=//input[@id='prependedInput']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Applanatest1"
+    }, {
+      "id": "1e499051-3348-46bf-af4d-bc54de7377d1",
+      "comment": "",
+      "command": "click",
+      "target": "id=prependedInput2",
+      "targets": [
+        ["id=prependedInput2", "id"],
+        ["name=_password", "name"],
+        ["css=#prependedInput2", "css:finder"],
+        ["xpath=//input[@id='prependedInput2']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a7627b0-7c3e-4257-a175-2a4d779f4ff4",
+      "comment": "",
+      "command": "type",
+      "target": "id=prependedInput2",
+      "targets": [
+        ["id=prependedInput2", "id"],
+        ["name=_password", "name"],
+        ["css=#prependedInput2", "css:finder"],
+        ["xpath=//input[@id='prependedInput2']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Student2020!"
+    }, {
+      "id": "897d6f38-ab27-4cfd-a50b-b5bffc418412",
+      "comment": "",
+      "command": "click",
+      "target": "id=_submit",
+      "targets": [
+        ["id=_submit", "id"],
+        ["name=_submit", "name"],
+        ["css=#\\_submit", "css:finder"],
+        ["xpath=//button[@id='_submit']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/fieldset/div[3]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b14f7d5-abae-47a2-b970-581584361311",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Проекты",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2d4aa739-a583-4eb0-9734-4bcfbb9f13f8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Мои проекты",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04b75fea-d065-4341-ae1e-e97f20981c45",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Создать проект",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "606fd37f-4a01-4f99-ba4f-cccf14be4541",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[3]/form/div[2]/div[3]/div/div[1]/div[2]/fieldset/div[1]/div[1]/div[2]/input",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ffcda5c4-c7b7-4b54-8550-709c86cc1d0c",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[3]/form/div[2]/div[3]/div/div[1]/div[2]/fieldset/div[1]/div[1]/div[2]/input",
+      "targets": [],
+      "value": "AlphaTestTestosterovshika1"
+    }, {
+      "id": "386a5f52-a6ef-4775-a766-6f70ed6600f7",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[3]/form/div[2]/div[3]/div/div[1]/div[2]/fieldset/div[1]/div[2]/div[2]/div/div[1]/a/span[1]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ddab35e-e6c8-42bc-8b6d-b92a1756c4b9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "xpath=/html/body/div[6]/ul[2]/li[5]/div",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed713c2e-0ef8-4163-b3d2-225e4d3f6fa0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[6]/ul[2]/li[5]/div",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "750e8fb2-09fe-4079-827e-c91e0302936d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(text(), 'Выберите подр')]/following-sibling::select",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c43aac86-6f03-4a31-acd9-95b990ee95f2",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//span[contains(text(), 'Выберите подр')]/following-sibling::select",
+      "targets": [],
+      "value": "label=Research & Development"
+    }, {
+      "id": "41c0c729-af07-4671-9e71-b72caa9d003e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(text(), 'Resear')]/following-sibling::select",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "416ecd79-29d2-4a8f-8e4d-41d04713d2fa",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(text(), 'Средний')]/following-sibling::select",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c6cf04d-dac4-4b5f-b217-effa9be05cca",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//span[contains(text(), 'Средний')]/following-sibling::select",
+      "targets": [],
+      "value": "label=Низкий"
+    }, {
+      "id": "3a69758c-ff14-4490-8713-a19896dabf56",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(text(), 'Из средств зак')]/following-sibling::select",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3c1c3d0-af48-4958-8c75-e1218ec13d64",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//span[contains(text(), 'Из средств зак')]/following-sibling::select",
+      "targets": [],
+      "value": "label=Инвестиции"
+    }, {
+      "id": "b463ba8f-1940-4e7b-b09c-50779492ca01",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(text(), 'Выберите кура')]/following-sibling::select",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e774bbc-7285-4814-a271-bc14794cfadf",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//span[contains(text(), 'Выберите кура')]/following-sibling::select",
+      "targets": [],
+      "value": "label=Ким Юрий"
+    }, {
+      "id": "7afeb210-a142-4cc6-88a5-471e8d5ade4e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(text(), 'Выберите руков')]/following-sibling::select",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bb48f854-4f22-4084-be71-96633ae4dada",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//span[contains(text(), 'Выберите руков')]/following-sibling::select",
+      "targets": [],
+      "value": "label=Гатов Фёдор"
+    }, {
+      "id": "b4a27f0f-621f-425f-9e90-f6824e19885e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(text(), 'Выберите менедж')]/following-sibling::select",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80b3310e-8c0a-4d97-8329-ce819bf2db35",
+      "comment": "",
+      "command": "select",
+      "target": "xpath=//span[contains(text(), 'Выберите менедж')]/following-sibling::select",
+      "targets": [],
+      "value": "label=Козлов Илья"
+    }, {
+      "id": "c912d64b-237c-470c-a884-d1061daf89b9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=/html/body/div[2]/div/div[2]/div[3]/form/div[1]/div/div/div[2]/div[1]/div[4]/button ",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "556d074f-d54c-4c29-9fe2-32c09d02167a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3af6e8eb-554d-4f22-a727-4e8f961c1b51"]
+  }],
+  "urls": ["https://crm.geekbrains.space/"],
+  "plugins": []
+}
